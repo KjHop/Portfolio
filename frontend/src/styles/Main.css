@@ -1,0 +1,29 @@
+.Main > header > ul{
+    list-style-type: none;
+    float:right;
+}
+
+.Main > header > ul > li{
+    display: inline;
+    text-decoration: none;
+
+    font-size:1.8vw;
+}
+
+.Main > header > ul > li > a{
+    color:black;
+    padding:0.5vw;
+    margin:0.6vw;
+}
+.Main > header > ul > li > a:hover{
+    background-color:yellow;
+}
+
+@media only screen and (max-width: 768px){
+    .Main > header > ul > li{
+        display: inline;
+        text-decoration: none;
+    
+        font-size:2.3vw;
+    }
+}

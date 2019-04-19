@@ -9,8 +9,8 @@ class Main extends React.Component{
                 <header>
                     <ul>
                         <li><NavLink to='/projects' activeClassName='activeLink'>my projects</NavLink></li>
-                        <li><a href="/projects">about me</a></li>
-                        <li><a href="/projects">contact</a></li>
+                        <li><NavLink to='/about' activeClassName='activeLink'>about me</NavLink></li>
+                        <li><NavLink to='/contact' activeClassName='activeLink'>contact</NavLink></li>
                     </ul>
                 </header>
                 <main>
